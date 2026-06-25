@@ -1,0 +1,75 @@
+/* Google Fonts Import - Nunito for a cute, modern rounded look */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+    pointer-events: none;
+}
+
+:root {
+    --primary-coral: #E76F73;
+    --soft-blue: #A7C7E7;
+    --mint-green: #A8E6CF;
+    --cream-yellow: #FFFACD;
+    --soft-purple: #C3B1E1;
+
+    --bg-light: #F8F9FB;
+    --text-dark: #2D3436;
+    --text-light: #636E72;
+    --white: #ffffff;
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 8px 24px rgba(167, 199, 231, 0.2);
+    --shadow-premium: 0 20px 40px rgba(0, 0, 0, 0.04);
+    --border-radius-lg: 20px;
+    --border-radius-btn: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 80px 0;
+    scroll-margin-top: 50px;
+}

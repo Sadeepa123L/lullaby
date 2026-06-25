@@ -1,0 +1,124 @@
+.footer {
+    background-color: var(--text-dark);
+    color: var(--white);
+    padding: 60px 0 20px 0;
+    margin: 60px 20px 20px 20px;
+    border-radius: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.2fr;
+    gap: 50px;
+    padding: 0 50px 40px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-brand-section .navbar-brand {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 1.8rem;
+}
+
+.footer-desc {
+    opacity: 0.7;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials a {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    color: var(--white);
+}
+
+.footer-socials a:hover {
+    background-color: var(--primary-coral);
+    transform: translateY(-5px);
+}
+
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: var(--soft-blue);
+    font-weight: 700;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    color: var(--mint-green);
+    padding-left: 5px;
+}
+
+.footer-contact p {
+    opacity: 0.7;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 20px 50px 0 50px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.footer-bottom p {
+    font-size: 0.85rem;
+    opacity: 0.4;
+    margin: 0;
+}
+
+@media (max-width: 968px) {
+    .footer {
+        margin: 60px 15px 15px 15px;
+        padding: 40px 0 20px 0;
+        border-radius: 30px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+        padding: 0 30px 30px 30px;
+    }
+
+    .footer-socials {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        padding: 20px 30px 0 30px;
+        margin: 0 15px;
+    }
+}
